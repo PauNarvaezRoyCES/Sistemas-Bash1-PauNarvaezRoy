@@ -1,1 +1,1 @@
-ls -A
+cat .gitignore

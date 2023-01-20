@@ -1,1 +1,1 @@
-git log -5
+git log -5 | awk '/commit/ {print}' | awk '{print $2}'
